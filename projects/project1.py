@@ -14,7 +14,7 @@ def driver():
     driver.quit()
 
 # Logar no site com o usuário standard
-def test_login(driver):
+def test_happypath(driver):
     username = driver.find_element(By.ID, "user-name")
     username.send_keys("standard_user")
 
